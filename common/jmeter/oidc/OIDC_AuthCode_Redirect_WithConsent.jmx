@@ -385,7 +385,7 @@ if (y == 0 || deploymentType == &quot;active-passive&quot;) {
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
+          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="false">
             <stringProp name="ConstantTimer.delay">6000</stringProp>
             <stringProp name="RandomTimer.range">2000</stringProp>
           </GaussianRandomTimer>
@@ -536,7 +536,7 @@ ${password}</stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree>
-            <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
+            <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="false">
               <stringProp name="ConstantTimer.delay">2000</stringProp>
               <stringProp name="RandomTimer.range">1000</stringProp>
             </GaussianRandomTimer>

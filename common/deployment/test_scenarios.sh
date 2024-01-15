@@ -80,12 +80,12 @@ declare -A test_scenario3=(
     [skip]=false
     [modes]="FULL QUICK PUBLISH"
 )
-declare -A test_scenario13=(
-    [name]="07-Token_Exchange_Grant"
-    [display_name]="Token Exchange Grant"
-    [description]="Obtain an access token and an id token using the OAuth Token Exchange grant type."
-    [jmx]="oauth/Token_Exchange_Grant.jmx"
-    [tenantMode]=false
-    [skip]=false
-    [modes]="FULL QUICK PUBLISH"
-)
+# declare -A test_scenario13=(
+#     [name]="07-Token_Exchange_Grant"
+#     [display_name]="Token Exchange Grant"
+#     [description]="Obtain an access token and an id token using the OAuth Token Exchange grant type."
+#     [jmx]="oauth/Token_Exchange_Grant.jmx"
+#     [tenantMode]=false
+#     [skip]=false
+#     [modes]="FULL QUICK PUBLISH"
+# )

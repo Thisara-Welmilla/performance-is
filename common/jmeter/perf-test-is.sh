@@ -221,7 +221,7 @@ if [ ${#concurrent_users[@]} -eq 0 ]; then
         concurrent_users_array=( $default_concurrent_users )
     fi
 else
-    concurrent_users_array=( ${concurrent_users[@]} )
+    concurrent_users_array=( "50 100" )
 fi
 
 for heap in ${heap_sizes_array[@]}; do

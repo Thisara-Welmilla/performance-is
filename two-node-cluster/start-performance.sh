@@ -388,7 +388,7 @@ echo "============================================"
 create_db_command="ssh -i $key_file -o "StrictHostKeyChecking=no" -t ubuntu@$bastion_node_ip mysql -h $rds_host \
     -u wso2carbon -pwso2carbon < /home/ubuntu/workspace/setup/resources/createDB.sql"
 echo "$create_db_command"
-ssh -i "$key_file" -o "StrictHostKeyChecking=no" -t ubuntu@"$bastion_node_ip" "cd /home/ubuntu/ ; unzip -q wso2is.zip ; \
+ssh -i "$key_file" -o "StrictHostKeyChecking=no" -t ubuntu@"$bastion_node_ip" "cd /home/ubuntu/ ; ls -la ; unzip -q wso2is.zip ; \
     mv wso2is-* wso2is"
 $create_db_command
 

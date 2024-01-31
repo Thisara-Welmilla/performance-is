@@ -123,4 +123,4 @@ localMemberPort = "4000"
 members = ["member_ip_2:4000", "member_ip_1:4000"]
 
 [tenant_context]
-enable_tenant_qualified_urls=false
+enable_tenant_qualified_urls=true

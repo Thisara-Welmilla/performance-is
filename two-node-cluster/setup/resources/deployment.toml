@@ -124,3 +124,6 @@ members = ["member_ip_2:4000", "member_ip_1:4000"]
 
 [tenant_context]
 enable_tenant_qualified_urls=false
+
+[legacy_authz_runtime]
+enable=true

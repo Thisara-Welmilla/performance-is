@@ -67,15 +67,15 @@ declare -A test_scenario1=(
 #     [skip]=false
 #     [modes]="FULL PUBLISH"
 # )
-# declare -A test_scenario4=(
-#     [name]="04-oauth_client_credential_grant"
-#     [display_name]="Client Credentials Grant Type"
-#     [description]="Obtain an access token using the OAuth 2.0 client credential grant type."
-#     [jmx]="oauth/OAuth_Client_Credentials_Grant.jmx"
-#     [tenantMode]=false
-#     [skip]=false
-#     [modes]="FULL PUBLISH"
-# )
+declare -A test_scenario4=(
+    [name]="04-oauth_client_credential_grant"
+    [display_name]="Client Credentials Grant Type"
+    [description]="Obtain an access token using the OAuth 2.0 client credential grant type."
+    [jmx]="oauth/OAuth_Client_Credentials_Grant.jmx"
+    [tenantMode]=false
+    [skip]=false
+    [modes]="FULL PUBLISH"
+)
 declare -A test_scenario5=(
     [name]="05-oidc_auth_code_redirect_with_consent"
     [display_name]="OIDC Auth Code Grant Redirect With Consent"
@@ -103,15 +103,15 @@ declare -A test_scenario5=(
 #     [skip]=false
 #     [modes]="FULL QUICK PUBLISH"
 # )
-declare -A test_scenario8=(
-    [name]="08-oidc_request_path_authenticator"
-    [display_name]="OIDC Auth Code Request Path Authenticator With Consent"
-    [description]="Obtain an access token and an id token using the request path authenticator."
-    [jmx]="oidc/OIDC_AuthCode_Request_Path_Authenticator_WithConsent.jmx"
-    [tenantMode]=false
-    [skip]=false
-    [modes]="FULL PUBLISH"
-)
+# declare -A test_scenario8=(
+#     [name]="08-oidc_request_path_authenticator"
+#     [display_name]="OIDC Auth Code Request Path Authenticator With Consent"
+#     [description]="Obtain an access token and an id token using the request path authenticator."
+#     [jmx]="oidc/OIDC_AuthCode_Request_Path_Authenticator_WithConsent.jmx"
+#     [tenantMode]=false
+#     [skip]=false
+#     [modes]="FULL PUBLISH"
+# )
 # declare -A test_scenario9=(
 #     [name]="09-saml2_sso_redirect_binding"
 #     [display_name]="SAML2 SSO Redirect Binding"
@@ -121,15 +121,15 @@ declare -A test_scenario8=(
 #     [skip]=false
 #     [modes]="FULL QUICK PUBLISH"
 # )
-# declare -A test_scenario10=(
-#     [name]="10-oauth_auth_code_redirect_with_consent_tenant"
-#     [display_name]="Auth Code Grant Redirect With Consent"
-#     [description]="Obtain an access token using the OAuth 2.0 authorization code grant type."
-#     [jmx]="oauth/OAuth_AuthCode_Redirect_WithConsent.jmx"
-#     [tenantMode]=true
-#     [skip]=true
-#     [modes]="FULL"
-# )
+declare -A test_scenario10=(
+    [name]="10-oauth_auth_code_redirect_with_consent_tenant"
+    [display_name]="Auth Code Grant Redirect With Consent"
+    [description]="Obtain an access token using the OAuth 2.0 authorization code grant type."
+    [jmx]="oauth/OAuth_AuthCode_Redirect_WithConsent.jmx"
+    [tenantMode]=true
+    [skip]=true
+    [modes]="FULL"
+)
 # declare -A test_scenario11=(
 #     [name]="11-oauth_implicit_redirect_with_consent_tenant"
 #     [display_name]="Implicit Grant Redirect With Consent"
@@ -148,24 +148,24 @@ declare -A test_scenario8=(
 #     [skip]=true
 #     [modes]="FULL"
 # )
-# declare -A test_scenario13=(
-#     [name]="04-oauth_client_credential_grant_tenant"
-#     [display_name]="Client Credentials Grant Type"
-#     [description]="Obtain an access token using the OAuth 2.0 client credential grant type."
-#     [jmx]="oauth/OAuth_Client_Credentials_Grant.jmx"
-#     [tenantMode]=true
-#     [skip]=true
-#     [modes]="FULL"
-# )
-# declare -A test_scenario14=(
-#     [name]="14-oidc_auth_code_redirect_with_consent_tenant"
-#     [display_name]="OIDC Auth Code Grant Redirect With Consent"
-#     [description]="Obtain an access token and an id token using the OAuth 2.0 authorization code grant type."
-#     [jmx]="oidc/OIDC_AuthCode_Redirect_WithConsent.jmx"
-#     [tenantMode]=true
-#     [skip]=true
-#     [modes]="FULL"
-# )
+declare -A test_scenario13=(
+    [name]="04-oauth_client_credential_grant_tenant"
+    [display_name]="Client Credentials Grant Type"
+    [description]="Obtain an access token using the OAuth 2.0 client credential grant type."
+    [jmx]="oauth/OAuth_Client_Credentials_Grant.jmx"
+    [tenantMode]=true
+    [skip]=true
+    [modes]="FULL"
+)
+declare -A test_scenario14=(
+    [name]="14-oidc_auth_code_redirect_with_consent_tenant"
+    [display_name]="OIDC Auth Code Grant Redirect With Consent"
+    [description]="Obtain an access token and an id token using the OAuth 2.0 authorization code grant type."
+    [jmx]="oidc/OIDC_AuthCode_Redirect_WithConsent.jmx"
+    [tenantMode]=true
+    [skip]=true
+    [modes]="FULL"
+)
 # declare -A test_scenario15=(
 #     [name]="15-oidc_implicit_redirect_with_consent_tenant"
 #     [display_name]="OIDC Implicit Grant Redirect With Consent"
